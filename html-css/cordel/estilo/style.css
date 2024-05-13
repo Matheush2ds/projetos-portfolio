@@ -19,20 +19,20 @@
 html, body {
     font-family: var(--fonte1);
     min-height: 100vh;
-    background-color: dimgray;
+    background-color: darkgray;
 }
 
 header {
-    font-family: var(--fonte2);
     background-color: black;
     color: white;
     text-align: center;
 }
 
 header > h1 {
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 9vw;
+    font-size: 10vw;
 }
 
 header > p {
@@ -51,10 +51,11 @@ a:hover, footer a:hover{
 
 section {
     font-family: var(--fonte3);
+    font-size: 3.5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 25px;
-    line-height: 3.5vw;
+    line-height: 2em;
 }
 
 section > p {
@@ -89,14 +90,6 @@ section#img02 {
     background-size: cover;
 
 }
-
-
-
-
-
-
-
-
 
 footer {
     background-color: black;
